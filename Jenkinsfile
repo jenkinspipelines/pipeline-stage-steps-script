@@ -11,7 +11,8 @@ pipeline {
 					if(name == "jeff")
 						println("hi ${name}")
 					else
-						println("hello human")				
+                                        if(name != "jeff")
+						println("hi human")				
 												
 					sleep 2	
 					echo "end of script"
