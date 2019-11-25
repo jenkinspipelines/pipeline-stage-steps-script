@@ -6,17 +6,17 @@ pipeline {
 			
 				script{
 				
-					//def name = "jeff"
+					//def name = "Jeff"
 					def name = "jon"
 					
-					if(name == "jeff")
-						println("hi ${name}")
+					if(name == "Jeff")
+						println("Hi ${name}")
 					else
-                                        if(name != "jeff")
-						println("hi human")				
+                                        if(name != "Jeff")
+						println("Hello human")				
 												
 					sleep 2	
-					echo "end of script"
+					echo "End of script"
 				}
             }
         }
